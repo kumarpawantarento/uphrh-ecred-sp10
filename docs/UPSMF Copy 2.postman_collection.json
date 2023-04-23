@@ -1,0 +1,903 @@
+{
+	"info": {
+		"_postman_id": "0a8e96ee-f178-468d-be52-ead74e7c85ba",
+		"name": "UPSMF Copy 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24616952"
+	},
+	"item": [
+		{
+			"name": "Insitute",
+			"item": [
+				{
+					"name": "0 - Login",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"214\",\n    \"password\": \"pilibhit\"\n}"
+						},
+						"url": {
+							"raw": "http://139.59.88.77:5000/login/Institute",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "5000",
+							"path": [
+								"login",
+								"Institute"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1 - Get Institute from RC by user RC' s ID",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"accept-encoding": true,
+							"connection": true,
+							"user-agent": true
+						},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHdURzYk1CSTR5dTl3RXF5ekhndzhyM1dfNzZ5TDJQb2lEZ2ZxcDFQSDZRIn0.eyJleHAiOjE2NzU5MzA2MjAsImlhdCI6MTY3NTkzMDMyMCwianRpIjoiNDk2OTdmNjktMTMyOC00ZWQwLWEwZWItMTJiMTJlNmI4NWUzIiwiaXNzIjoiaHR0cDovLzEzOS41OS44OC43Nzo4MDgwL2F1dGgvcmVhbG1zL3N1bmJpcmQtcmMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMTI2M2RmODktMmE0Ny00MjZhLWJkM2ItYzQ2MWJhZDY1ZmEzIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicmVnaXN0cnktZnJvbnRlbmQiLCJzZXNzaW9uX3N0YXRlIjoiODU0OTM1MmQtZGU0OC00NGFhLTg5YjItNDJlZmM4NmNjMjIwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJJbnN0aXR1dGUiLCJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtc3VuYmlyZC1yYyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoiMDAwNSIsImVtYWlsIjoiMDAwNSJ9.UB3CGXVRFSfmjdH3CQxjYroIJwQNHEF5_pUQnuEGZfPfmC7a4h56lg0gqWJKsU8BE6i-F9AE10JQtEq-qa5Z0AYpYZ66j2RdhiWV2nZfDE7xAxjyqaUlFXuGzC5V3veOPPn8D40bdNBN1RfFRSm4D8lgd-RAeZaDCDDgrrNlIq0oshw3cTDiuDCRjINEIhFQx12Nb-jkOwG1riF_rM8RbcZ63B1m9vqhnly_a-cg9jAfxjCF100bW9uElliHawxvk47aNfMs8rzOr_RTnl4jITOhI1uPpErJDRx-p1AP5ERhcC1EZCg7GLJ1fNzgvWVCWl9BrcEeYDpimZ8VKP5yXw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://uphrh-rc.samagra.io/api/v1/Institute",
+							"protocol": "https",
+							"host": [
+								"uphrh-rc",
+								"samagra",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Institute"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All users (Institute) from CASA",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://139.59.88.77:3000 (blocked by firewall)",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "3000 (blocked by firewall)"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get users (Institute) from CASA by username",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://139.59.88.77:3000/test (port forward to 3000) -- 3000 port is hidden",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "3000",
+							"path": [
+								"test (port forward to 3000) -- 3000 port is hidden"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get access token from Keycloak-casa",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "HyzZUTbL3n6WNybG8iXsVDVNV0CKwviX",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "lr-service",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic ",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "0001",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "7325",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid phone address-casa email",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://139.59.88.77:9090/realms/master/protocol/openid-connect/token",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "9090",
+							"path": [
+								"realms",
+								"master",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "- Institute should be already present in the database for Login\n- Institute Invite is to directly add a user in Registry using RC APIs"
+		},
+		{
+			"name": "Student",
+			"item": [
+				{
+					"name": "0 -Register",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"student_189\",\n    \"password\": \"test\"\n}"
+						},
+						"url": {
+							"raw": "http://139.59.88.77:5000/register/Student",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "5000",
+							"path": [
+								"register",
+								"Student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1 - Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"student_179\",\n    \"password\": \"test\"\n}"
+						},
+						"url": {
+							"raw": "http://139.59.88.77:5000/login/Student",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "5000",
+							"path": [
+								"login",
+								"Student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2 - Get Student from RC by RC' s user ID",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"accept-encoding": true,
+							"connection": true,
+							"user-agent": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHdURzYk1CSTR5dTl3RXF5ekhndzhyM1dfNzZ5TDJQb2lEZ2ZxcDFQSDZRIn0.eyJleHAiOjE2ODEzNzEyMTEsImlhdCI6MTY4MTM3MDkxMSwianRpIjoiNTdhZmQ4ZWEtY2UxYi00MDVmLWJmODMtMjU1YzMyNmVlZTc3IiwiaXNzIjoiaHR0cDovLzEzOS41OS44OC43Nzo4MDgwL2F1dGgvcmVhbG1zL3N1bmJpcmQtcmMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMDUzMTZlNDUtNWY1OS00ZjRkLWE0MjQtZjU3MGZkMGIzOTFlIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicmVnaXN0cnktZnJvbnRlbmQiLCJzZXNzaW9uX3N0YXRlIjoiNDk0OWI3YzMtY2EwYy00Y2I2LWFjN2EtZWMxOGU1Y2YxMGI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtc3VuYmlyZC1yYyIsInVtYV9hdXRob3JpemF0aW9uIiwiU3R1ZGVudCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6InN0dWRlbnRfMTc5IiwiZW1haWwiOiJzdHVkZW50XzE3OSJ9.C5ZdTFFYcpk8N_VgRKiim1uE24LJR4i9I6pi4ndb5l7zBKiQ2FjP8HOLq6wh8t6zoL-d5qFRRG0IJ7d2HuISowOYOYg_c9vcma-PXSrzI2d7J4ixaS4LxeTiooeTaHDDaX8SXNHJ3oUrMQtoT9DIo6PyhDPckSOMKSRt3Kt9qCkzSexP0bFnCEJ03JwuUCqSLqR5KbyhBOancNSN78cRMrBcxpQqklXlFaYcggnQKmQnfhpEVx281X9mmGwdSnQAYzNTxY_XfWV3r1FER79z8H4pMznqbrSTmTK0ULq1_jhDd8o0s_oLn8ayxSadkQucXn1DKXduTAkdA2mcTkFaeg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://uphrh-rc.samagra.io/api/v1/Student",
+							"protocol": "https",
+							"host": [
+								"uphrh-rc",
+								"samagra",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get student data from CASA by primary key",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://139.59.88.77:3000/Student/1",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "3000",
+							"path": [
+								"Student",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "- Student username is \"student_{primary_key_in_database}\""
+		},
+		{
+			"name": "Tutor",
+			"item": [
+				{
+					"name": "0 - Register",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"tutor_10\",\n    \"password\": \"test\"\n}"
+						},
+						"url": {
+							"raw": "http://139.59.88.77:5000/register/Tutor",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "5000",
+							"path": [
+								"register",
+								"Tutor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1 - Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"tutor_10\",\n    \"password\": \"test\"\n}"
+						},
+						"url": {
+							"raw": "http://139.59.88.77:5000/login/Tutor",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "5000",
+							"path": [
+								"login",
+								"Tutor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2 - Fetch Data from Sunbird RC",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHdURzYk1CSTR5dTl3RXF5ekhndzhyM1dfNzZ5TDJQb2lEZ2ZxcDFQSDZRIn0.eyJleHAiOjE2NzU5Mjg0NTcsImlhdCI6MTY3NTkyODE1NywianRpIjoiOTFiNjBkOTktMzNkZi00NTZmLWE2ZWItYjNkNjg4YTFkMzYyIiwiaXNzIjoiaHR0cDovLzEzOS41OS44OC43Nzo4MDgwL2F1dGgvcmVhbG1zL3N1bmJpcmQtcmMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZTc2ZjI2ODUtYTEwMS00NzQwLWE0NWItMDBjNzRlZjcyODg4IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicmVnaXN0cnktZnJvbnRlbmQiLCJzZXNzaW9uX3N0YXRlIjoiMGFkNTc3MjYtOWViZi00NDVhLWE2ZjEtNjM4Mzc0YjNmMjQ5IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJJbnN0aXR1dGUiLCJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtc3VuYmlyZC1yYyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoiMDAwMSIsImVtYWlsIjoiMDAwMSJ9.DAkNCm7K5w4XzRX73806j-w25CWV9s6eBooMeCwaWGGZLFfG4pQQ1kl9PCp9y3ZijdAE4d9Nhre551xtqPz00fIW9RSq83x3IFAhzUNykXOLdKu351sh1_NnC3Munv5B8Y4UkHcQXpOujKV8Jn8tK7JVVM7Ore4eat25iS8DvZb2fviGgDyNrBjn_78RikriC426ZbQ0wj9LlVKLLdkt9POl0dWPZnq8PhTM96Li-HNYgacNmci7vstsFQKiHBBmBJeMCxXMs6QnUm1tXA9So7QjjP9w9LAf3evOOBaGmeLpW9Y336yQoIQXy_q2er8YOrI66-eeTB_koMJvtaD_wA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://uphrh-rc.samagra.io/api/v1/Tutor/",
+							"protocol": "https",
+							"host": [
+								"uphrh-rc",
+								"samagra",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Tutor",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Tutor from RC by RC' s ID",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true,
+							"accept-encoding": true,
+							"connection": true,
+							"user-agent": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://uphrh-rc.samagra.io/api/v1/Tutor/1-b572cc67-1498-4ea0-bce0-dfaa56495ef9",
+							"protocol": "http",
+							"host": [
+								"uphrh-rc",
+								"samagra",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"Tutor",
+								"1-b572cc67-1498-4ea0-bce0-dfaa56495ef9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get tutor data from CASA by primary key Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://139.59.88.77:3000/tutor/1",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"88",
+								"77"
+							],
+							"port": "3000",
+							"path": [
+								"tutor",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "- Student username is \"student_{primary_key_in_database}\""
+		},
+		{
+			"name": "RC-Keycloak-Admin-APIs",
+			"item": [
+				{
+					"name": "Get Admin Access Token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "admin-cli",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:34199/auth/realms/master/protocol/openid-connect/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "34199",
+							"path": [
+								"auth",
+								"realms",
+								"master",
+								"protocol",
+								"openid-connect",
+								"token"
+							],
+							"query": [
+								{
+									"key": "username",
+									"value": "admin",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"disabled": true
+								},
+								{
+									"key": "grant_type",
+									"value": "password",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reset Password of a user",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJyeFBRYXBVS2JiZXhVUzhjcjB6SVNXVjE4T1hmS01OZkVselpRdnFFdlU4In0.eyJleHAiOjE2NzI4MzUxMDEsImlhdCI6MTY3MjgzMTUwMSwianRpIjoiYjYwM2M3MzQtMjgwMS00YzM5LWFmNjMtZmU0ODA0ZWYxYjViIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozNDE5OS9hdXRoL3JlYWxtcy9tYXN0ZXIiLCJzdWIiOiIzZjYwNzk0ZC0yOTgyLTQ0YzUtYTU2Yy01YTU5MDFhMDkzZDYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJhZG1pbi1jbGkiLCJzZXNzaW9uX3N0YXRlIjoiOTgxZTJmYmMtYzdhOS00ZmRlLWExOTYtNmEyY2Y1MjMwODU0IiwiYWNyIjoiMSIsInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoiYWRtaW4ifQ.aDdFfAVc1ISwc8kC9391ei96t7Srjfo1gTg83PeWdIaqOSwkwFKIp2QWz6ld4HFKz2yhC_t0-wYkadvlivAhottj38cpC3nM1k9rkNct1jBljAhxFvh_FYF1nmH9BvDvfu97oAg7fv6OAyqGU3BFkk8oH2fktGxtD3Mfkfu9LwpJkjSXpVVJkjo6CG7OnUAITLgm30hDPYRsDIshBgud5TvVhxczWeL-Khnb30C_RLlmtPzkYtS1DYfFl6wIuCYhLtkdtiyjL49G_WbFWqH-mxNBERRt-jRbCRP5mWTEoNKlxt2X882E2R-aKEji_1rHSRPJQ8GYEoixogATTBue8w",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"type\": \"password\", \"temporary\": false, \"value\": \"test-test\" }"
+						},
+						"url": {
+							"raw": "http://localhost:34199/auth/admin/realms/sunbird-rc/users/8dc0bb6a-26ec-4c5a-8519-7ba3ee9cc836/reset-password",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "34199",
+							"path": [
+								"auth",
+								"admin",
+								"realms",
+								"sunbird-rc",
+								"users",
+								"8dc0bb6a-26ec-4c5a-8519-7ba3ee9cc836",
+								"reset-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get exact user by username",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJyeFBRYXBVS2JiZXhVUzhjcjB6SVNXVjE4T1hmS01OZkVselpRdnFFdlU4In0.eyJleHAiOjE2NzI4MzMyMzAsImlhdCI6MTY3MjgyOTYzMCwianRpIjoiNzdiYzRhM2QtNmE2NS00M2M0LThkNDMtYzMyZWQ2ZmM1OTRkIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozNDE5OS9hdXRoL3JlYWxtcy9tYXN0ZXIiLCJzdWIiOiIzZjYwNzk0ZC0yOTgyLTQ0YzUtYTU2Yy01YTU5MDFhMDkzZDYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJhZG1pbi1jbGkiLCJzZXNzaW9uX3N0YXRlIjoiZTU3NTllNzQtOWMxOS00NjUxLWIyYzMtOTAzODgxZjRmMTAxIiwiYWNyIjoiMSIsInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoiYWRtaW4ifQ.GLOb2_mQBfj8Ja3oInJAa9L2fU3iayRsn_HDU_ClPK_AMpk24OgxWsexqxMZjz5-wthrzyVDptzFHesUGRNE2fgwvUwcc-PqzUgBDQzNpym5isn1AzV5s9TWWfcOFduFS0wop844TFQqJ0vnF7HkHNBS6biayeDH54V-w34o9FoQI00xvjjHefDuhEZzJWf6ulUnQtH5mGos3CMg_A5i-z6TjPzIF8xPtQO0hyZLS-MW-WF-wV9gCGmVmPjiSxTcmqmSMN4mr0x8xm8LJLBTFdXvTy1UaACS7OnIMetKqJkuKpPODk5BoxpaZ3wn3r_-jhR620pHOU7QxIOY-zvcfA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "student_4",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "exact",
+									"value": "true",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "https://uphrh-rc.samagra.io/auth/admin/realms/sunbird-rc/users?username=0001&exact=true",
+							"protocol": "https",
+							"host": [
+								"uphrh-rc",
+								"samagra",
+								"io"
+							],
+							"path": [
+								"auth",
+								"admin",
+								"realms",
+								"sunbird-rc",
+								"users"
+							],
+							"query": [
+								{
+									"key": "username",
+									"value": "0001"
+								},
+								{
+									"key": "exact",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Search Entity in Registry - RC",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"filters\": {\n        \n        }\n}"
+				},
+				"url": {
+					"raw": "https://uphrh-rc.samagra.io/api/v1/Tutor/search/",
+					"protocol": "https",
+					"host": [
+						"uphrh-rc",
+						"samagra",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Tutor",
+						"search",
+						""
+					]
+				},
+				"description": "- Search fails if ES container is removed. So only newly added users in the current session can be searched.\n- This is probably due to ES indexes not persisting between registry restart"
+			},
+			"response": []
+		},
+		{
+			"name": "Update entity",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHdURzYk1CSTR5dTl3RXF5ekhndzhyM1dfNzZ5TDJQb2lEZ2ZxcDFQSDZRIn0.eyJleHAiOjE2NzU5MzAzOTQsImlhdCI6MTY3NTkzMDA5NCwianRpIjoiZThjNmZiMmEtMWEyZC00YTFmLWJmMTUtMDNlNmQ0YmQwYTEyIiwiaXNzIjoiaHR0cDovLzEzOS41OS44OC43Nzo4MDgwL2F1dGgvcmVhbG1zL3N1bmJpcmQtcmMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZTc2ZjI2ODUtYTEwMS00NzQwLWE0NWItMDBjNzRlZjcyODg4IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicmVnaXN0cnktZnJvbnRlbmQiLCJzZXNzaW9uX3N0YXRlIjoiZjk3ZGUzM2QtY2U4OS00ODIyLTlmYTktMmE2OTY3MTM4NzgxIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJJbnN0aXR1dGUiLCJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtc3VuYmlyZC1yYyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoiMDAwMSIsImVtYWlsIjoiMDAwMSJ9.SQ3fN-Kb78GsYm9ubseV-Wu9sEKdKdvzAwbJhUsNhyPvRoK0buvkJbrqxIBjKrauYk28Og6zYRbgIC7CZls9cA_H14FEcepMYyMD7iMX5adcgXF8N7JT3I5-lVuSZj4AZENGxAuVIgAjsYBnDDOyWKKV9UukFeKq-vXU93l2lwyLWLH91SSKM5AVYoc4B0k5dRwJJU9xK6wjdGO1FqyiYW1pbXCUweoVFCzlJYzlrOnQZFvsNPgIykT-xYO_KQEpyaMvJuowUt_afdn-BLqyKrJf1mdMt0Eu6H011GQA1I1OTTPd4UgYwVm7qMgR9oauSieFWLWycetMZC2Enht8Bg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "authorization",
+						"value": "bearer {access-token}",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"phoneNumber\": \"\",\n        \"address\": \"\",\n        \"name\": \"S.V.Bssss.P. HOSPITAL\",\n        \"osid\": \"1-021da493-6955-4d2e-920b-1679f5427499\",\n        \"osOwner\": [\n            \"e76f2685-a101-4740-a45b-00c74ef72888\"\n        ],\n        \"email\": \"artest\",\n        \"username\": \"0001\"\n    }"
+				},
+				"url": {
+					"raw": "https://uphrh-rc.samagra.io/api/v1/Institute/1-021da493-6955-4d2e-920b-1679f5427499",
+					"protocol": "https",
+					"host": [
+						"uphrh-rc",
+						"samagra",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Institute",
+						"1-021da493-6955-4d2e-920b-1679f5427499"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get userinfo from RC keycloak",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHdURzYk1CSTR5dTl3RXF5ekhndzhyM1dfNzZ5TDJQb2lEZ2ZxcDFQSDZRIn0.eyJleHAiOjE2NzQwMzkxNDcsImlhdCI6MTY3NDAzODg0NywianRpIjoiOWU1NWZkNTUtNDYzNy00ZWE2LWI1NjktYmY0ODdhNDdmN2I1IiwiaXNzIjoiaHR0cDovLzY0LjIyNy4xODQuMTc1OjgwODAvYXV0aC9yZWFsbXMvc3VuYmlyZC1yYyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzYWJjNjAzMy1mYTNiLTQxMTMtOWZkZC1iNGJjMDU5NmMwZWYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJyZWdpc3RyeS1mcm9udGVuZCIsInNlc3Npb25fc3RhdGUiOiJlOWJkMzA5Mi0wZmE2LTQ3Y2QtYTdiYS02NzYzOGQxM2ZmNTAiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwiZGVmYXVsdC1yb2xlcy1zdW5iaXJkLXJjIiwidW1hX2F1dGhvcml6YXRpb24iLCJTdHVkZW50Il19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic3R1ZGVudF8zMyIsImVtYWlsIjoic3R1ZGVudF8zMyJ9.cIuFpIAGSxRuddPc79WUJrMmL7BuszcvMu6qqweY6HCg25mhrHBk9zjSDJyPTlyfBmmPTNJIxSQv7387fxXiqubes8sKRk_ePuT6X2wiCz9gqy3Uo-INIZSgNGK_QOMULVcsQGHsViVGp20zxAmG8ZKtZI09uxz6luhyfbhqiL_De0DJeZVaoSl9FXgblAANVunQeFFuiwEzhAu9JEwB2pyEXY2cJqwSKZHSijsN-QaGLLoCArIz_3plJAq-4Om78DC0uRt4vLZdeY1xKVskpCb5azvoJRwqo5gPRWYzwjAZWShAUlAZN7MBOjOynNibrqql6nRbrfTrzVuEuWZpdA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://139.59.88.77:8080/auth/realms/sunbird-rc/protocol/openid-connect/userinfo",
+					"protocol": "http",
+					"host": [
+						"139",
+						"59",
+						"88",
+						"77"
+					],
+					"port": "8080",
+					"path": [
+						"auth",
+						"realms",
+						"sunbird-rc",
+						"protocol",
+						"openid-connect",
+						"userinfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Data from Sunbird RC",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHdURzYk1CSTR5dTl3RXF5ekhndzhyM1dfNzZ5TDJQb2lEZ2ZxcDFQSDZRIn0.eyJleHAiOjE2NzU5Mjg0NTcsImlhdCI6MTY3NTkyODE1NywianRpIjoiOTFiNjBkOTktMzNkZi00NTZmLWE2ZWItYjNkNjg4YTFkMzYyIiwiaXNzIjoiaHR0cDovLzEzOS41OS44OC43Nzo4MDgwL2F1dGgvcmVhbG1zL3N1bmJpcmQtcmMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZTc2ZjI2ODUtYTEwMS00NzQwLWE0NWItMDBjNzRlZjcyODg4IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicmVnaXN0cnktZnJvbnRlbmQiLCJzZXNzaW9uX3N0YXRlIjoiMGFkNTc3MjYtOWViZi00NDVhLWE2ZjEtNjM4Mzc0YjNmMjQ5IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJJbnN0aXR1dGUiLCJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtc3VuYmlyZC1yYyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoiMDAwMSIsImVtYWlsIjoiMDAwMSJ9.DAkNCm7K5w4XzRX73806j-w25CWV9s6eBooMeCwaWGGZLFfG4pQQ1kl9PCp9y3ZijdAE4d9Nhre551xtqPz00fIW9RSq83x3IFAhzUNykXOLdKu351sh1_NnC3Munv5B8Y4UkHcQXpOujKV8Jn8tK7JVVM7Ore4eat25iS8DvZb2fviGgDyNrBjn_78RikriC426ZbQ0wj9LlVKLLdkt9POl0dWPZnq8PhTM96Li-HNYgacNmci7vstsFQKiHBBmBJeMCxXMs6QnUm1tXA9So7QjjP9w9LAf3evOOBaGmeLpW9Y336yQoIQXy_q2er8YOrI66-eeTB_koMJvtaD_wA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://uphrh-rc.samagra.io/api/v1/Institute",
+					"protocol": "https",
+					"host": [
+						"uphrh-rc",
+						"samagra",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Institute"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
