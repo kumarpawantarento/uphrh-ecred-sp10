@@ -31,14 +31,6 @@
             "enum": ["Attendance", "Skill", "Work", "Reputation"],
             "title": "Certificate Type"
           },
-          "mobile": {
-            "type": "string",
-            "title": "Student Mobile number"
-          },
-          "email": {
-            "type": "string",
-            "title": "Student Email id"
-          },
           "course": {
             "type": "string",
             "title": "Course"

@@ -1,0 +1,152 @@
+{
+    "schema": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://www.w3.org/2018/credentials/examples/v1",
+            "https://playground.chapi.io/examples/alumni/alumni-v1.json",
+            "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "type": "https://w3c-ccg.github.io/vc-json-schemas/",
+        "version": "1.0",
+        "id": "did:ulpschema:c9cc0f03-4f94-4f44-9bcd-b24a8696fa2",
+        "name": "Proof of Academic Evaluation Credential",
+        "author": "did:example:c276e12ec21ebfeb1f712ebc6f1",
+        "authored": "2022-12-19T09:22:23.064Z",
+        "schema": {
+            "$id": "Proof-of-Academic-Evaluation-Credential-1.0",
+            "$schema": "https://json-schema.org/draft/2019-09/schema",
+            "description": "The holder has secured the <PERCENTAGE/GRADE> in <PROGRAMME> from <ABC_Institute>.",
+            "type": "object",
+            "properties": {
+                "Certificates": {
+                    "$ref": "#/definitions/Certificates"
+                }
+            },
+            "title": "Certificates",
+            "definitions": {
+                "Certificates": {
+                    "$id": "#/properties/Certificates",
+                    "type": "object",
+                    "title": "DIPLOMA CERTIFICATE",
+                    "required": [
+                        "cert-no",
+                        "roll-no"
+                    ],
+                    "properties": {
+                        "roll-no": {
+                            "$id": "#/properties/roll-no",
+                            "type": "string",
+                            "title": "Roll No"
+                        },
+                        "name": {
+                            "$id": "#/properties/name",
+                            "type": "string",
+                            "title": "Full name"
+                        },
+                        "mother-name": {
+                            "type": "string",
+                            "title": "Mother's name"
+                        },
+                        "father-name": {
+                            "type": "string",
+                            "title": "Father's name"
+                        },
+                        "exam-center": {
+                            "type": "string",
+                            "title": "Exam Center"
+                        },
+                        "exam-date": {
+                            "type": "string",
+                            "title": "Exam Date"
+                        },
+                        "cert-no": {
+                            "type": "string",
+                            "title": "Certificate No"
+                        },
+                        "training-center": {
+                            "type": "string",
+                            "title": "Trainning Center"
+                        },
+                        "training-period": {
+                            "type": "string",
+                            "title": "Trainning Period"
+                        },
+                        "exam-body": {
+                            "type": "string",
+                            "title": "Exam Body"
+                        },
+                        "programme": {
+                            "type": "string",
+                            "description": "Name of the programme pursed by the holder."
+                        },
+                        "certifyingInstitute": {
+                            "type": "string",
+                            "description": "Name of the instute which certified the said grade in the said skill"
+                        },
+                        "certificateType": {
+                            "type": "string",
+                            "enum": [
+                                "REGISTRATION CERTIFICATE",
+                                "DIPLOMA CERTIFICATE",
+                                "ADDITIONAL QUALIFICATION CERTIFICATE",
+                                "Marks Sheet"
+                            ],
+                            "title": "Certificate Type"
+                        },
+                        "certificateStatus": {
+                            "type": "string",
+                            "enum": [
+                                "Created",
+                                "Approved",
+                                "ISSUED",
+                                "Invalid"
+                            ],
+                            "title": "Certificate Type"
+                        },
+                        "mobile": {
+                            "type": "string",
+                            "title": "Student Mobile number"
+                        },
+                        "email": {
+                            "type": "string",
+                            "title": "Student Email id"
+                        },
+                        "course": {
+                            "type": "string",
+                            "title": "Course"
+                        },
+                        "skill": {
+                            "type": "string",
+                            "title": "Skills"
+                        },
+                        "awardedOn": {
+                            "type": "string",
+                            "title": "Awared on"
+                        }
+                    }
+                }
+            },
+            "required": [
+                "roll-no",
+                "name",
+                "eexam-center",
+                "exam-body"
+            ],
+            "additionalProperties": false
+        },
+        "proof": {
+            "type": "object",
+            "properties": {
+                "created": "",
+                "verificationMethod": "",
+                "proofPurpose": "",
+                "proofValue": ""
+            },
+            "required": []
+        }
+    },
+    "tags": [
+        "tag1",
+        "tag2"
+    ]
+}
