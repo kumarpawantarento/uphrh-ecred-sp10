@@ -1,0 +1,23 @@
+{
+    "_index": "skillcertificate",
+    "_type": "_doc",
+    "_id": "b6b71be1-88c1-438c-803e-540c25252fd9",
+    "_version": 1,
+    "_score": 1,
+    "_source": {
+    "name": "KM GURIYA",
+    "contact": "71102342522",
+    "rollNumber": "224300003",
+    "dob": "1997-09-20",
+    "gender": "F",
+    "email": "kumarpawans@gmail.com",
+    "trainingTitle": "DIPLOMA IN GENERAL NURSING and MIDWIFERY",
+    "enrollmentNumber": "2210254300051",
+    "examYear": "2022",
+    "osOwner": [
+    "anonymous"
+    ],
+    "_osSignedData": "{"@context":["https://www.w3.org/2018/credentials/v1","https://raw.githubusercontent.com/kumarpawantarento/templates/main/skills"],"type":["VerifiableCredential"],"issuanceDate":"2021-08-27T10:57:57.237Z","credentialSubject":{"type":"Person","name":"KM GURIYA","trainedOn":"DIPLOMA IN GENERAL NURSING and MIDWIFERY","rollNumber":"224300003","orgLogo":"","gender":"F","qualification":"","dob":"1997-09-20"},"issuer":"did:web:sunbirdrc.dev/vc/skill","proof":{"type":"RsaSignature2018","created":"2023-05-24T11:05:19Z","verificationMethod":"did:india","proofPurpose":"assertionMethod","jws":"eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..G3jzAQ9twzr6cM1reyF64BQu4nar4QOFVnQmc9LopaBk41jkRbv2ksdLHdmdL64BdLDLMsbZZMUwaUYjVTlWiArAAOAZoNY606tfiBRER4uizQAq98drsiDj5d2YUDirjFPz9sUswZfwCmmmglk7O0ji8CgQ1FMgDckFD1gHKnTpqr0svhaaVgWvOf0dc26cM6RgMNQIMB4k-Hee7GJm3qLSz6p3rVCJwySyx1vnSO9qJJXxI9XQczUy0J7xqV3oR1T3iGnfjGqn1ZZzSwyi3MqwIMAPG4Y7UzM_cDqmqE3qJLMngkqu4jY3OAIkk1VSa5aVpV9aXqGUaSGDzamgCw"}}",
+    "osid": "1-b6b71be1-88c1-438c-803e-540c25252fd9"
+    }}
+    
