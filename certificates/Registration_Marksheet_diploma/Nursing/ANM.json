@@ -1,0 +1,2053 @@
+{
+  "filename": "ANM-173123873-M.pdf",
+  "page_data": [
+    {
+      "page": 0,
+      "image_url": "https://nnts.imgix.net/uploadedfiles/rawocr/b1de7ed2-a105-444f-9bee-cb490083e17a-1.jpeg?auto=compress&expires=1686836557&or=0&s=c7eeceb896e431886e24d82308ff3d30",
+      "size": {
+        "width": 2550,
+        "height": 3300
+      },
+      "words": [
+        {
+          "text": "d",
+          "xmin": 421,
+          "ymin": 150,
+          "xmax": 461,
+          "ymax": 162
+        },
+        {
+          "text": "a",
+          "xmin": 503,
+          "ymin": 179,
+          "xmax": 527,
+          "ymax": 199
+        },
+        {
+          "text": "3",
+          "xmin": 461,
+          "ymin": 221,
+          "xmax": 509,
+          "ymax": 279
+        },
+        {
+          "text": "UTTAR",
+          "xmin": 646,
+          "ymin": 180,
+          "xmax": 866,
+          "ymax": 229
+        },
+        {
+          "text": "PRADESH",
+          "xmin": 891,
+          "ymin": 179,
+          "xmax": 1201,
+          "ymax": 229
+        },
+        {
+          "text": "STATE",
+          "xmin": 1225,
+          "ymin": 179,
+          "xmax": 1423,
+          "ymax": 229
+        },
+        {
+          "text": "MEDICAL",
+          "xmin": 1445,
+          "ymin": 179,
+          "xmax": 1747,
+          "ymax": 229
+        },
+        {
+          "text": "FACULTY",
+          "xmin": 1767,
+          "ymin": 179,
+          "xmax": 2052,
+          "ymax": 229
+        },
+        {
+          "text": "E",
+          "xmin": 512,
+          "ymin": 245,
+          "xmax": 543,
+          "ymax": 268
+        },
+        {
+          "text": "PITCTH",
+          "xmin": 389,
+          "ymin": 307,
+          "xmax": 449,
+          "ymax": 339
+        },
+        {
+          "text": "S",
+          "xmin": 486,
+          "ymin": 280,
+          "xmax": 518,
+          "ymax": 312
+        },
+        {
+          "text": "LUCKNOW",
+          "xmin": 1180,
+          "ymin": 263,
+          "xmax": 1516,
+          "ymax": 314
+        },
+        {
+          "text": "CONSOLIDATED",
+          "xmin": 288,
+          "ymin": 406,
+          "xmax": 607,
+          "ymax": 439
+        },
+        {
+          "text": "MARKSHEET",
+          "xmin": 625,
+          "ymin": 406,
+          "xmax": 880,
+          "ymax": 439
+        },
+        {
+          "text": "OF",
+          "xmin": 895,
+          "ymin": 406,
+          "xmax": 949,
+          "ymax": 439
+        },
+        {
+          "text": "AUXILIARY",
+          "xmin": 963,
+          "ymin": 406,
+          "xmax": 1181,
+          "ymax": 438
+        },
+        {
+          "text": "NURSE",
+          "xmin": 1199,
+          "ymin": 406,
+          "xmax": 1337,
+          "ymax": 439
+        },
+        {
+          "text": "&",
+          "xmin": 1351,
+          "ymin": 405,
+          "xmax": 1382,
+          "ymax": 435
+        },
+        {
+          "text": "MIDWIFE",
+          "xmin": 1399,
+          "ymin": 406,
+          "xmax": 1589,
+          "ymax": 439
+        },
+        {
+          "text": "/",
+          "xmin": 1606,
+          "ymin": 403,
+          "xmax": 1621,
+          "ymax": 438
+        },
+        {
+          "text": "H.W",
+          "xmin": 1639,
+          "ymin": 406,
+          "xmax": 1725,
+          "ymax": 438
+        },
+        {
+          "text": "|",
+          "xmin": 1722,
+          "ymin": 415,
+          "xmax": 1728,
+          "ymax": 432
+        },
+        {
+          "text": "(FEMALE",
+          "xmin": 1748,
+          "ymin": 403,
+          "xmax": 1935,
+          "ymax": 442
+        },
+        {
+          "text": "I",
+          "xmin": 1933,
+          "ymin": 407,
+          "xmax": 1937,
+          "ymax": 434
+        },
+        {
+          "text": "EXAMINATION",
+          "xmin": 1959,
+          "ymin": 406,
+          "xmax": 2260,
+          "ymax": 439
+        },
+        {
+          "text": "Roll",
+          "xmin": 343,
+          "ymin": 526,
+          "xmax": 406,
+          "ymax": 554
+        },
+        {
+          "text": "No.",
+          "xmin": 420,
+          "ymin": 528,
+          "xmax": 479,
+          "ymax": 554
+        },
+        {
+          "text": "173123873",
+          "xmin": 786,
+          "ymin": 527,
+          "xmax": 977,
+          "ymax": 554
+        },
+        {
+          "text": "Name",
+          "xmin": 343,
+          "ymin": 595,
+          "xmax": 446,
+          "ymax": 623
+        },
+        {
+          "text": "of",
+          "xmin": 458,
+          "ymin": 593,
+          "xmax": 494,
+          "ymax": 621
+        },
+        {
+          "text": "Student",
+          "xmin": 504,
+          "ymin": 593,
+          "xmax": 644,
+          "ymax": 623
+        },
+        {
+          "text": "|",
+          "xmin": 758,
+          "ymin": 602,
+          "xmax": 762,
+          "ymax": 609
+        },
+        {
+          "text": "SMT.",
+          "xmin": 784,
+          "ymin": 594,
+          "xmax": 868,
+          "ymax": 621
+        },
+        {
+          "text": "POONAM",
+          "xmin": 883,
+          "ymin": 594,
+          "xmax": 1049,
+          "ymax": 621
+        },
+        {
+          "text": "Mother's",
+          "xmin": 343,
+          "ymin": 661,
+          "xmax": 503,
+          "ymax": 691
+        },
+        {
+          "text": "Name",
+          "xmin": 516,
+          "ymin": 663,
+          "xmax": 619,
+          "ymax": 691
+        },
+        {
+          "text": "SMT.",
+          "xmin": 784,
+          "ymin": 663,
+          "xmax": 866,
+          "ymax": 688
+        },
+        {
+          "text": "RADHIKA",
+          "xmin": 883,
+          "ymin": 663,
+          "xmax": 1044,
+          "ymax": 691
+        },
+        {
+          "text": "Father's",
+          "xmin": 343,
+          "ymin": 728,
+          "xmax": 482,
+          "ymax": 758
+        },
+        {
+          "text": "Name",
+          "xmin": 495,
+          "ymin": 730,
+          "xmax": 598,
+          "ymax": 758
+        },
+        {
+          "text": "SRI",
+          "xmin": 784,
+          "ymin": 729,
+          "xmax": 838,
+          "ymax": 755
+        },
+        {
+          "text": "SHRWAN",
+          "xmin": 850,
+          "ymin": 730,
+          "xmax": 1008,
+          "ymax": 758
+        },
+        {
+          "text": "KUMAR",
+          "xmin": 1025,
+          "ymin": 730,
+          "xmax": 1160,
+          "ymax": 758
+        },
+        {
+          "text": "Training",
+          "xmin": 340,
+          "ymin": 797,
+          "xmax": 482,
+          "ymax": 830
+        },
+        {
+          "text": "Centre",
+          "xmin": 494,
+          "ymin": 797,
+          "xmax": 611,
+          "ymax": 826
+        },
+        {
+          "text": "MAA",
+          "xmin": 786,
+          "ymin": 798,
+          "xmax": 869,
+          "ymax": 825
+        },
+        {
+          "text": "MATURANI",
+          "xmin": 886,
+          "ymin": 798,
+          "xmax": 1082,
+          "ymax": 825
+        },
+        {
+          "text": "DEVI",
+          "xmin": 1096,
+          "ymin": 798,
+          "xmax": 1177,
+          "ymax": 825
+        },
+        {
+          "text": "MAHAVIDYALAYA",
+          "xmin": 1192,
+          "ymin": 798,
+          "xmax": 1495,
+          "ymax": 825
+        },
+        {
+          "text": "NURSING",
+          "xmin": 1510,
+          "ymin": 797,
+          "xmax": 1670,
+          "ymax": 825
+        },
+        {
+          "text": "PRASIKSHAN",
+          "xmin": 1689,
+          "ymin": 798,
+          "xmax": 1910,
+          "ymax": 825
+        },
+        {
+          "text": "KENDRA",
+          "xmin": 1930,
+          "ymin": 798,
+          "xmax": 2073,
+          "ymax": 825
+        },
+        {
+          "text": "|",
+          "xmin": 2077,
+          "ymin": 819,
+          "xmax": 2084,
+          "ymax": 824
+        },
+        {
+          "text": "BALLIA",
+          "xmin": 786,
+          "ymin": 849,
+          "xmax": 905,
+          "ymax": 876
+        },
+        {
+          "text": "[",
+          "xmin": 920,
+          "ymin": 846,
+          "xmax": 928,
+          "ymax": 874
+        },
+        {
+          "text": "1030",
+          "xmin": 944,
+          "ymin": 848,
+          "xmax": 1029,
+          "ymax": 876
+        },
+        {
+          "text": "1",
+          "xmin": 1040,
+          "ymin": 848,
+          "xmax": 1045,
+          "ymax": 872
+        },
+        {
+          "text": "YEAR",
+          "xmin": 346,
+          "ymin": 961,
+          "xmax": 420,
+          "ymax": 985
+        },
+        {
+          "text": "OF",
+          "xmin": 432,
+          "ymin": 961,
+          "xmax": 470,
+          "ymax": 983
+        },
+        {
+          "text": "THE",
+          "xmin": 480,
+          "ymin": 961,
+          "xmax": 535,
+          "ymax": 983
+        },
+        {
+          "text": "COURSE",
+          "xmin": 547,
+          "ymin": 961,
+          "xmax": 665,
+          "ymax": 985
+        },
+        {
+          "text": "FIRST",
+          "xmin": 696,
+          "ymin": 961,
+          "xmax": 772,
+          "ymax": 983
+        },
+        {
+          "text": "YEAR",
+          "xmin": 783,
+          "ymin": 961,
+          "xmax": 857,
+          "ymax": 983
+        },
+        {
+          "text": "I",
+          "xmin": 1060,
+          "ymin": 962,
+          "xmax": 1091,
+          "ymax": 978
+        },
+        {
+          "text": "EXAM",
+          "xmin": 1595,
+          "ymin": 955,
+          "xmax": 1678,
+          "ymax": 985
+        },
+        {
+          "text": "MONTH",
+          "xmin": 1694,
+          "ymin": 961,
+          "xmax": 1807,
+          "ymax": 985
+        },
+        {
+          "text": "YEAR",
+          "xmin": 1821,
+          "ymin": 961,
+          "xmax": 1895,
+          "ymax": 985
+        },
+        {
+          "text": "SEPTEMBER",
+          "xmin": 1925,
+          "ymin": 961,
+          "xmax": 2098,
+          "ymax": 985
+        },
+        {
+          "text": "2017",
+          "xmin": 2132,
+          "ymin": 961,
+          "xmax": 2200,
+          "ymax": 983
+        },
+        {
+          "text": "SUBJECT",
+          "xmin": 439,
+          "ymin": 1031,
+          "xmax": 561,
+          "ymax": 1053
+        },
+        {
+          "text": "e",
+          "xmin": 950,
+          "ymin": 1005,
+          "xmax": 1333,
+          "ymax": 1080
+        },
+        {
+          "text": "MAX.",
+          "xmin": 1382,
+          "ymin": 1031,
+          "xmax": 1460,
+          "ymax": 1054
+        },
+        {
+          "text": "EXT",
+          "xmin": 1473,
+          "ymin": 1031,
+          "xmax": 1526,
+          "ymax": 1054
+        },
+        {
+          "text": "MAX.",
+          "xmin": 1554,
+          "ymin": 1029,
+          "xmax": 1633,
+          "ymax": 1054
+        },
+        {
+          "text": "INT",
+          "xmin": 1645,
+          "ymin": 1031,
+          "xmax": 1692,
+          "ymax": 1053
+        },
+        {
+          "text": "OBT",
+          "xmin": 1728,
+          "ymin": 1022,
+          "xmax": 1789,
+          "ymax": 1054
+        },
+        {
+          "text": "EXT",
+          "xmin": 1806,
+          "ymin": 1031,
+          "xmax": 1855,
+          "ymax": 1053
+        },
+        {
+          "text": "OBT",
+          "xmin": 1901,
+          "ymin": 1031,
+          "xmax": 1960,
+          "ymax": 1053
+        },
+        {
+          "text": "INT",
+          "xmin": 1977,
+          "ymin": 1031,
+          "xmax": 2026,
+          "ymax": 1055
+        },
+        {
+          "text": "TOTAL",
+          "xmin": 2087,
+          "ymin": 1031,
+          "xmax": 2177,
+          "ymax": 1053
+        },
+        {
+          "text": "T",
+          "xmin": 1347,
+          "ymin": 1095,
+          "xmax": 1351,
+          "ymax": 1095
+        },
+        {
+          "text": "COMMUNITY",
+          "xmin": 440,
+          "ymin": 1101,
+          "xmax": 637,
+          "ymax": 1124
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 649,
+          "ymin": 1101,
+          "xmax": 758,
+          "ymax": 1124
+        },
+        {
+          "text": "NURSING",
+          "xmin": 772,
+          "ymin": 1101,
+          "xmax": 907,
+          "ymax": 1124
+        },
+        {
+          "text": "I",
+          "xmin": 1350,
+          "ymin": 1095,
+          "xmax": 1370,
+          "ymax": 1128
+        },
+        {
+          "text": "75",
+          "xmin": 1443,
+          "ymin": 1101,
+          "xmax": 1474,
+          "ymax": 1124
+        },
+        {
+          "text": "25",
+          "xmin": 1613,
+          "ymin": 1095,
+          "xmax": 1645,
+          "ymax": 1124
+        },
+        {
+          "text": "43",
+          "xmin": 1782,
+          "ymin": 1101,
+          "xmax": 1815,
+          "ymax": 1124
+        },
+        {
+          "text": "19",
+          "xmin": 1954,
+          "ymin": 1101,
+          "xmax": 1984,
+          "ymax": 1123
+        },
+        {
+          "text": "62",
+          "xmin": 2122,
+          "ymin": 1101,
+          "xmax": 2154,
+          "ymax": 1123
+        },
+        {
+          "text": "6",
+          "xmin": 843,
+          "ymin": 1150,
+          "xmax": 880,
+          "ymax": 1150
+        },
+        {
+          "text": "a",
+          "xmin": 1096,
+          "ymin": 1144,
+          "xmax": 1277,
+          "ymax": 1151
+        },
+        {
+          "text": "i",
+          "xmin": 1662,
+          "ymin": 1145,
+          "xmax": 1687,
+          "ymax": 1160
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 441,
+          "ymin": 1172,
+          "xmax": 549,
+          "ymax": 1196
+        },
+        {
+          "text": "PROMOTION",
+          "xmin": 564,
+          "ymin": 1172,
+          "xmax": 753,
+          "ymax": 1196
+        },
+        {
+          "text": "75",
+          "xmin": 1441,
+          "ymin": 1168,
+          "xmax": 1473,
+          "ymax": 1192
+        },
+        {
+          "text": "25",
+          "xmin": 1613,
+          "ymin": 1172,
+          "xmax": 1645,
+          "ymax": 1193
+        },
+        {
+          "text": "T",
+          "xmin": 1686,
+          "ymin": 1139,
+          "xmax": 1713,
+          "ymax": 1182
+        },
+        {
+          "text": "46",
+          "xmin": 1782,
+          "ymin": 1172,
+          "xmax": 1815,
+          "ymax": 1193
+        },
+        {
+          "text": "18",
+          "xmin": 1955,
+          "ymin": 1172,
+          "xmax": 1984,
+          "ymax": 1192
+        },
+        {
+          "text": "64",
+          "xmin": 2122,
+          "ymin": 1172,
+          "xmax": 2154,
+          "ymax": 1192
+        },
+        {
+          "text": "II",
+          "xmin": 365,
+          "ymin": 1242,
+          "xmax": 384,
+          "ymax": 1258
+        },
+        {
+          "text": "PRIMARY",
+          "xmin": 441,
+          "ymin": 1242,
+          "xmax": 576,
+          "ymax": 1264
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 590,
+          "ymin": 1242,
+          "xmax": 698,
+          "ymax": 1266
+        },
+        {
+          "text": "CARE",
+          "xmin": 712,
+          "ymin": 1242,
+          "xmax": 789,
+          "ymax": 1266
+        },
+        {
+          "text": "NURSING",
+          "xmin": 800,
+          "ymin": 1241,
+          "xmax": 936,
+          "ymax": 1266
+        },
+        {
+          "text": "75",
+          "xmin": 1443,
+          "ymin": 1242,
+          "xmax": 1473,
+          "ymax": 1262
+        },
+        {
+          "text": "25",
+          "xmin": 1613,
+          "ymin": 1242,
+          "xmax": 1643,
+          "ymax": 1262
+        },
+        {
+          "text": "47",
+          "xmin": 1782,
+          "ymin": 1240,
+          "xmax": 1815,
+          "ymax": 1266
+        },
+        {
+          "text": "20",
+          "xmin": 1952,
+          "ymin": 1236,
+          "xmax": 1985,
+          "ymax": 1266
+        },
+        {
+          "text": "67",
+          "xmin": 2122,
+          "ymin": 1242,
+          "xmax": 2154,
+          "ymax": 1262
+        },
+        {
+          "text": "CHILD",
+          "xmin": 440,
+          "ymin": 1301,
+          "xmax": 524,
+          "ymax": 1324
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 539,
+          "ymin": 1301,
+          "xmax": 647,
+          "ymax": 1325
+        },
+        {
+          "text": "NURSING",
+          "xmin": 662,
+          "ymin": 1301,
+          "xmax": 796,
+          "ymax": 1325
+        },
+        {
+          "text": "IV",
+          "xmin": 364,
+          "ymin": 1326,
+          "xmax": 390,
+          "ymax": 1347
+        },
+        {
+          "text": "75",
+          "xmin": 1443,
+          "ymin": 1326,
+          "xmax": 1473,
+          "ymax": 1347
+        },
+        {
+          "text": "25",
+          "xmin": 1613,
+          "ymin": 1326,
+          "xmax": 1643,
+          "ymax": 1347
+        },
+        {
+          "text": "T",
+          "xmin": 452,
+          "ymin": 1347,
+          "xmax": 464,
+          "ymax": 1364
+        },
+        {
+          "text": "39",
+          "xmin": 1783,
+          "ymin": 1326,
+          "xmax": 1815,
+          "ymax": 1348
+        },
+        {
+          "text": "18",
+          "xmin": 1954,
+          "ymin": 1326,
+          "xmax": 1984,
+          "ymax": 1347
+        },
+        {
+          "text": "57",
+          "xmin": 2123,
+          "ymin": 1326,
+          "xmax": 2154,
+          "ymax": 1347
+        },
+        {
+          "text": "COMMUNITY",
+          "xmin": 440,
+          "ymin": 1396,
+          "xmax": 637,
+          "ymax": 1420
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 649,
+          "ymin": 1396,
+          "xmax": 758,
+          "ymax": 1420
+        },
+        {
+          "text": "NURSING",
+          "xmin": 772,
+          "ymin": 1396,
+          "xmax": 908,
+          "ymax": 1420
+        },
+        {
+          "text": "AND",
+          "xmin": 919,
+          "ymin": 1396,
+          "xmax": 985,
+          "ymax": 1420
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 997,
+          "ymin": 1396,
+          "xmax": 1106,
+          "ymax": 1420
+        },
+        {
+          "text": "PROMOTION",
+          "xmin": 1120,
+          "ymin": 1396,
+          "xmax": 1307,
+          "ymax": 1420
+        },
+        {
+          "text": "V",
+          "xmin": 368,
+          "ymin": 1420,
+          "xmax": 384,
+          "ymax": 1438
+        },
+        {
+          "text": "(PRACTICAL)",
+          "xmin": 441,
+          "ymin": 1440,
+          "xmax": 624,
+          "ymax": 1464
+        },
+        {
+          "text": "100",
+          "xmin": 1427,
+          "ymin": 1420,
+          "xmax": 1474,
+          "ymax": 1444
+        },
+        {
+          "text": "100",
+          "xmin": 1596,
+          "ymin": 1420,
+          "xmax": 1643,
+          "ymax": 1442
+        },
+        {
+          "text": "93",
+          "xmin": 1783,
+          "ymin": 1420,
+          "xmax": 1815,
+          "ymax": 1444
+        },
+        {
+          "text": "72",
+          "xmin": 1953,
+          "ymin": 1420,
+          "xmax": 1984,
+          "ymax": 1440
+        },
+        {
+          "text": "165",
+          "xmin": 2105,
+          "ymin": 1420,
+          "xmax": 2154,
+          "ymax": 1442
+        },
+        {
+          "text": "O",
+          "xmin": 1280,
+          "ymin": 1475,
+          "xmax": 1322,
+          "ymax": 1480
+        },
+        {
+          "text": "CHILD",
+          "xmin": 440,
+          "ymin": 1488,
+          "xmax": 524,
+          "ymax": 1512
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 539,
+          "ymin": 1490,
+          "xmax": 646,
+          "ymax": 1512
+        },
+        {
+          "text": "NURSING",
+          "xmin": 662,
+          "ymin": 1490,
+          "xmax": 796,
+          "ymax": 1513
+        },
+        {
+          "text": "V",
+          "xmin": 363,
+          "ymin": 1515,
+          "xmax": 390,
+          "ymax": 1535
+        },
+        {
+          "text": "(P)",
+          "xmin": 441,
+          "ymin": 1534,
+          "xmax": 478,
+          "ymax": 1558
+        },
+        {
+          "text": "(PRACTICAL)",
+          "xmin": 491,
+          "ymin": 1532,
+          "xmax": 674,
+          "ymax": 1560
+        },
+        {
+          "text": "100",
+          "xmin": 1426,
+          "ymin": 1515,
+          "xmax": 1473,
+          "ymax": 1535
+        },
+        {
+          "text": "100",
+          "xmin": 1596,
+          "ymin": 1515,
+          "xmax": 1643,
+          "ymax": 1535
+        },
+        {
+          "text": "92",
+          "xmin": 1782,
+          "ymin": 1515,
+          "xmax": 1814,
+          "ymax": 1538
+        },
+        {
+          "text": "80",
+          "xmin": 1949,
+          "ymin": 1515,
+          "xmax": 1984,
+          "ymax": 1535
+        },
+        {
+          "text": "172",
+          "xmin": 2105,
+          "ymin": 1515,
+          "xmax": 2154,
+          "ymax": 1535
+        },
+        {
+          "text": "RESULT",
+          "xmin": 352,
+          "ymin": 1601,
+          "xmax": 457,
+          "ymax": 1623
+        },
+        {
+          "text": "PASS",
+          "xmin": 487,
+          "ymin": 1598,
+          "xmax": 557,
+          "ymax": 1624
+        },
+        {
+          "text": "TOTAL",
+          "xmin": 976,
+          "ymin": 1601,
+          "xmax": 1067,
+          "ymax": 1624
+        },
+        {
+          "text": "MARKS",
+          "xmin": 1078,
+          "ymin": 1601,
+          "xmax": 1183,
+          "ymax": 1624
+        },
+        {
+          "text": "OBTAINED",
+          "xmin": 1196,
+          "ymin": 1600,
+          "xmax": 1346,
+          "ymax": 1624
+        },
+        {
+          "text": "FIVE",
+          "xmin": 1377,
+          "ymin": 1601,
+          "xmax": 1437,
+          "ymax": 1623
+        },
+        {
+          "text": "HUNDRED",
+          "xmin": 1450,
+          "ymin": 1601,
+          "xmax": 1598,
+          "ymax": 1624
+        },
+        {
+          "text": "EIGHTY",
+          "xmin": 1611,
+          "ymin": 1601,
+          "xmax": 1716,
+          "ymax": 1623
+        },
+        {
+          "text": "SEVEN",
+          "xmin": 1729,
+          "ymin": 1601,
+          "xmax": 1820,
+          "ymax": 1624
+        },
+        {
+          "text": "587",
+          "xmin": 2058,
+          "ymin": 1594,
+          "xmax": 2109,
+          "ymax": 1624
+        },
+        {
+          "text": "1",
+          "xmin": 2121,
+          "ymin": 1601,
+          "xmax": 2129,
+          "ymax": 1624
+        },
+        {
+          "text": "800",
+          "xmin": 2144,
+          "ymin": 1601,
+          "xmax": 2195,
+          "ymax": 1623
+        },
+        {
+          "text": "YEAR",
+          "xmin": 346,
+          "ymin": 1706,
+          "xmax": 420,
+          "ymax": 1730
+        },
+        {
+          "text": "OF",
+          "xmin": 432,
+          "ymin": 1706,
+          "xmax": 470,
+          "ymax": 1728
+        },
+        {
+          "text": "THE",
+          "xmin": 480,
+          "ymin": 1704,
+          "xmax": 536,
+          "ymax": 1730
+        },
+        {
+          "text": "COURSE",
+          "xmin": 547,
+          "ymin": 1697,
+          "xmax": 665,
+          "ymax": 1730
+        },
+        {
+          "text": "FINAL",
+          "xmin": 696,
+          "ymin": 1706,
+          "xmax": 777,
+          "ymax": 1728
+        },
+        {
+          "text": "YEAR",
+          "xmin": 790,
+          "ymin": 1706,
+          "xmax": 863,
+          "ymax": 1730
+        },
+        {
+          "text": "EXAM",
+          "xmin": 1659,
+          "ymin": 1706,
+          "xmax": 1743,
+          "ymax": 1730
+        },
+        {
+          "text": "MONTH",
+          "xmin": 1757,
+          "ymin": 1706,
+          "xmax": 1872,
+          "ymax": 1730
+        },
+        {
+          "text": "YEAR",
+          "xmin": 1885,
+          "ymin": 1697,
+          "xmax": 1959,
+          "ymax": 1730
+        },
+        {
+          "text": "MARCH",
+          "xmin": 1990,
+          "ymin": 1697,
+          "xmax": 2098,
+          "ymax": 1730
+        },
+        {
+          "text": "2019",
+          "xmin": 2132,
+          "ymin": 1706,
+          "xmax": 2202,
+          "ymax": 1730
+        },
+        {
+          "text": "SUBJECT",
+          "xmin": 440,
+          "ymin": 1776,
+          "xmax": 563,
+          "ymax": 1798
+        },
+        {
+          "text": "MAX",
+          "xmin": 1382,
+          "ymin": 1776,
+          "xmax": 1453,
+          "ymax": 1798
+        },
+        {
+          "text": "EXT",
+          "xmin": 1473,
+          "ymin": 1776,
+          "xmax": 1525,
+          "ymax": 1798
+        },
+        {
+          "text": "MAX.",
+          "xmin": 1554,
+          "ymin": 1776,
+          "xmax": 1633,
+          "ymax": 1799
+        },
+        {
+          "text": "INT",
+          "xmin": 1645,
+          "ymin": 1773,
+          "xmax": 1692,
+          "ymax": 1798
+        },
+        {
+          "text": "OBT",
+          "xmin": 1728,
+          "ymin": 1776,
+          "xmax": 1789,
+          "ymax": 1799
+        },
+        {
+          "text": "EXT",
+          "xmin": 1806,
+          "ymin": 1776,
+          "xmax": 1855,
+          "ymax": 1798
+        },
+        {
+          "text": "OBT.",
+          "xmin": 1901,
+          "ymin": 1771,
+          "xmax": 1963,
+          "ymax": 1798
+        },
+        {
+          "text": "INT",
+          "xmin": 1972,
+          "ymin": 1771,
+          "xmax": 2025,
+          "ymax": 1798
+        },
+        {
+          "text": "TOTAL",
+          "xmin": 2087,
+          "ymin": 1769,
+          "xmax": 2178,
+          "ymax": 1799
+        },
+        {
+          "text": "MI",
+          "xmin": 441,
+          "ymin": 1836,
+          "xmax": 474,
+          "ymax": 1859
+        },
+        {
+          "text": "MIDWIFERY",
+          "xmin": 467,
+          "ymin": 1829,
+          "xmax": 616,
+          "ymax": 1859
+        },
+        {
+          "text": "75",
+          "xmin": 1443,
+          "ymin": 1860,
+          "xmax": 1473,
+          "ymax": 1881
+        },
+        {
+          "text": "25",
+          "xmin": 1614,
+          "ymin": 1860,
+          "xmax": 1643,
+          "ymax": 1881
+        },
+        {
+          "text": "49",
+          "xmin": 1782,
+          "ymin": 1860,
+          "xmax": 1815,
+          "ymax": 1882
+        },
+        {
+          "text": "20",
+          "xmin": 1953,
+          "ymin": 1856,
+          "xmax": 1984,
+          "ymax": 1881
+        },
+        {
+          "text": "69",
+          "xmin": 2122,
+          "ymin": 1860,
+          "xmax": 2154,
+          "ymax": 1881
+        },
+        {
+          "text": "T",
+          "xmin": 452,
+          "ymin": 1882,
+          "xmax": 464,
+          "ymax": 1897
+        },
+        {
+          "text": "I",
+          "xmin": 371,
+          "ymin": 1941,
+          "xmax": 383,
+          "ymax": 1958
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 441,
+          "ymin": 1941,
+          "xmax": 548,
+          "ymax": 1963
+        },
+        {
+          "text": "CENTER",
+          "xmin": 563,
+          "ymin": 1941,
+          "xmax": 675,
+          "ymax": 1964
+        },
+        {
+          "text": "MANAGEMENT",
+          "xmin": 688,
+          "ymin": 1940,
+          "xmax": 915,
+          "ymax": 1964
+        },
+        {
+          "text": "75",
+          "xmin": 1443,
+          "ymin": 1941,
+          "xmax": 1473,
+          "ymax": 1960
+        },
+        {
+          "text": "25",
+          "xmin": 1613,
+          "ymin": 1941,
+          "xmax": 1645,
+          "ymax": 1964
+        },
+        {
+          "text": "42",
+          "xmin": 1782,
+          "ymin": 1941,
+          "xmax": 1815,
+          "ymax": 1964
+        },
+        {
+          "text": "22",
+          "xmin": 1953,
+          "ymin": 1941,
+          "xmax": 1984,
+          "ymax": 1963
+        },
+        {
+          "text": "64",
+          "xmin": 2122,
+          "ymin": 1941,
+          "xmax": 2156,
+          "ymax": 1964
+        },
+        {
+          "text": "MI",
+          "xmin": 441,
+          "ymin": 2001,
+          "xmax": 474,
+          "ymax": 2024
+        },
+        {
+          "text": "IDWIFERY",
+          "xmin": 469,
+          "ymin": 1995,
+          "xmax": 615,
+          "ymax": 2022
+        },
+        {
+          "text": "II",
+          "xmin": 365,
+          "ymin": 2025,
+          "xmax": 384,
+          "ymax": 2042
+        },
+        {
+          "text": "(P)",
+          "xmin": 441,
+          "ymin": 2045,
+          "xmax": 478,
+          "ymax": 2069
+        },
+        {
+          "text": "|",
+          "xmin": 491,
+          "ymin": 2047,
+          "xmax": 496,
+          "ymax": 2064
+        },
+        {
+          "text": "PRACTICAL)",
+          "xmin": 496,
+          "ymin": 2045,
+          "xmax": 673,
+          "ymax": 2070
+        },
+        {
+          "text": "100",
+          "xmin": 1426,
+          "ymin": 2025,
+          "xmax": 1473,
+          "ymax": 2046
+        },
+        {
+          "text": "100",
+          "xmin": 1596,
+          "ymin": 2025,
+          "xmax": 1643,
+          "ymax": 2046
+        },
+        {
+          "text": "91",
+          "xmin": 1782,
+          "ymin": 2024,
+          "xmax": 1814,
+          "ymax": 2046
+        },
+        {
+          "text": "92",
+          "xmin": 1952,
+          "ymin": 2025,
+          "xmax": 1984,
+          "ymax": 2046
+        },
+        {
+          "text": "183",
+          "xmin": 2105,
+          "ymin": 2025,
+          "xmax": 2154,
+          "ymax": 2046
+        },
+        {
+          "text": "PRIMARY",
+          "xmin": 441,
+          "ymin": 2095,
+          "xmax": 579,
+          "ymax": 2118
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 590,
+          "ymin": 2095,
+          "xmax": 698,
+          "ymax": 2119
+        },
+        {
+          "text": "CARE",
+          "xmin": 713,
+          "ymin": 2095,
+          "xmax": 789,
+          "ymax": 2119
+        },
+        {
+          "text": "NURSING",
+          "xmin": 800,
+          "ymin": 2095,
+          "xmax": 936,
+          "ymax": 2119
+        },
+        {
+          "text": "AND",
+          "xmin": 947,
+          "ymin": 2095,
+          "xmax": 1010,
+          "ymax": 2119
+        },
+        {
+          "text": "HEALTH",
+          "xmin": 1025,
+          "ymin": 2095,
+          "xmax": 1133,
+          "ymax": 2118
+        },
+        {
+          "text": "CENTER",
+          "xmin": 1147,
+          "ymin": 2089,
+          "xmax": 1258,
+          "ymax": 2119
+        },
+        {
+          "text": "IV",
+          "xmin": 364,
+          "ymin": 2119,
+          "xmax": 390,
+          "ymax": 2141
+        },
+        {
+          "text": "MANAGEMENT",
+          "xmin": 441,
+          "ymin": 2141,
+          "xmax": 668,
+          "ymax": 2165
+        },
+        {
+          "text": "(PRACTICAL)",
+          "xmin": 679,
+          "ymin": 2139,
+          "xmax": 861,
+          "ymax": 2165
+        },
+        {
+          "text": "100",
+          "xmin": 1426,
+          "ymin": 2119,
+          "xmax": 1473,
+          "ymax": 2141
+        },
+        {
+          "text": "100",
+          "xmin": 1596,
+          "ymin": 2119,
+          "xmax": 1645,
+          "ymax": 2142
+        },
+        {
+          "text": "95",
+          "xmin": 1782,
+          "ymin": 2119,
+          "xmax": 1815,
+          "ymax": 2142
+        },
+        {
+          "text": "93",
+          "xmin": 1952,
+          "ymin": 2119,
+          "xmax": 1985,
+          "ymax": 2142
+        },
+        {
+          "text": "188",
+          "xmin": 2105,
+          "ymin": 2119,
+          "xmax": 2154,
+          "ymax": 2141
+        },
+        {
+          "text": "RESULT",
+          "xmin": 352,
+          "ymin": 2206,
+          "xmax": 459,
+          "ymax": 2230
+        },
+        {
+          "text": "PASS",
+          "xmin": 487,
+          "ymin": 2206,
+          "xmax": 557,
+          "ymax": 2230
+        },
+        {
+          "text": "Y",
+          "xmin": 795,
+          "ymin": 2191,
+          "xmax": 833,
+          "ymax": 2228
+        },
+        {
+          "text": "TOTAL",
+          "xmin": 976,
+          "ymin": 2206,
+          "xmax": 1067,
+          "ymax": 2230
+        },
+        {
+          "text": "MARKS",
+          "xmin": 1078,
+          "ymin": 2206,
+          "xmax": 1186,
+          "ymax": 2230
+        },
+        {
+          "text": "OBTAINED",
+          "xmin": 1196,
+          "ymin": 2197,
+          "xmax": 1348,
+          "ymax": 2230
+        },
+        {
+          "text": "FIVE",
+          "xmin": 1374,
+          "ymin": 2206,
+          "xmax": 1437,
+          "ymax": 2226
+        },
+        {
+          "text": "HUNDRED",
+          "xmin": 1450,
+          "ymin": 2206,
+          "xmax": 1598,
+          "ymax": 2230
+        },
+        {
+          "text": "FOUR",
+          "xmin": 1611,
+          "ymin": 2203,
+          "xmax": 1691,
+          "ymax": 2230
+        },
+        {
+          "text": "504",
+          "xmin": 2058,
+          "ymin": 2206,
+          "xmax": 2109,
+          "ymax": 2227
+        },
+        {
+          "text": "I",
+          "xmin": 2105,
+          "ymin": 2207,
+          "xmax": 2111,
+          "ymax": 2222
+        },
+        {
+          "text": "1",
+          "xmin": 2122,
+          "ymin": 2207,
+          "xmax": 2129,
+          "ymax": 2227
+        },
+        {
+          "text": "600",
+          "xmin": 2144,
+          "ymin": 2206,
+          "xmax": 2194,
+          "ymax": 2230
+        },
+        {
+          "text": "T",
+          "xmin": 1437,
+          "ymin": 2285,
+          "xmax": 1562,
+          "ymax": 2291
+        },
+        {
+          "text": "ATTEMPTIS",
+          "xmin": 346,
+          "ymin": 2299,
+          "xmax": 512,
+          "ymax": 2321
+        },
+        {
+          "text": "I",
+          "xmin": 513,
+          "ymin": 2299,
+          "xmax": 519,
+          "ymax": 2319
+        },
+        {
+          "text": "FIRST",
+          "xmin": 555,
+          "ymin": 2300,
+          "xmax": 630,
+          "ymax": 2321
+        },
+        {
+          "text": "YEAR",
+          "xmin": 642,
+          "ymin": 2300,
+          "xmax": 717,
+          "ymax": 2323
+        },
+        {
+          "text": "SEPTEMBER",
+          "xmin": 822,
+          "ymin": 2300,
+          "xmax": 998,
+          "ymax": 2323
+        },
+        {
+          "text": "2017",
+          "xmin": 1029,
+          "ymin": 2300,
+          "xmax": 1098,
+          "ymax": 2323
+        },
+        {
+          "text": "PASS",
+          "xmin": 1129,
+          "ymin": 2300,
+          "xmax": 1199,
+          "ymax": 2323
+        },
+        {
+          "text": "FINAL",
+          "xmin": 555,
+          "ymin": 2349,
+          "xmax": 638,
+          "ymax": 2370
+        },
+        {
+          "text": "YEAR",
+          "xmin": 649,
+          "ymin": 2349,
+          "xmax": 722,
+          "ymax": 2372
+        },
+        {
+          "text": "SEPTEMBER",
+          "xmin": 822,
+          "ymin": 2346,
+          "xmax": 998,
+          "ymax": 2372
+        },
+        {
+          "text": "2018",
+          "xmin": 1029,
+          "ymin": 2349,
+          "xmax": 1098,
+          "ymax": 2372
+        },
+        {
+          "text": "|",
+          "xmin": 1110,
+          "ymin": 2348,
+          "xmax": 1115,
+          "ymax": 2368
+        },
+        {
+          "text": "FAIL",
+          "xmin": 1122,
+          "ymin": 2348,
+          "xmax": 1188,
+          "ymax": 2372
+        },
+        {
+          "text": ").",
+          "xmin": 1198,
+          "ymin": 2347,
+          "xmax": 1215,
+          "ymax": 2373
+        },
+        {
+          "text": "MARCH",
+          "xmin": 1222,
+          "ymin": 2337,
+          "xmax": 1338,
+          "ymax": 2373
+        },
+        {
+          "text": "2019",
+          "xmin": 1369,
+          "ymin": 2339,
+          "xmax": 1438,
+          "ymax": 2372
+        },
+        {
+          "text": "1",
+          "xmin": 1450,
+          "ymin": 2348,
+          "xmax": 1455,
+          "ymax": 2365
+        },
+        {
+          "text": "PASS",
+          "xmin": 1470,
+          "ymin": 2344,
+          "xmax": 1539,
+          "ymax": 2372
+        },
+        {
+          "text": "I",
+          "xmin": 1552,
+          "ymin": 2347,
+          "xmax": 1556,
+          "ymax": 2368
+        },
+        {
+          "text": "PRINCIPAL",
+          "xmin": 496,
+          "ymin": 2630,
+          "xmax": 662,
+          "ymax": 2668
+        },
+        {
+          "text": "E",
+          "xmin": 583,
+          "ymin": 2622,
+          "xmax": 598,
+          "ymax": 2632
+        },
+        {
+          "text": "Maa",
+          "xmin": 417,
+          "ymin": 2678,
+          "xmax": 457,
+          "ymax": 2703
+        },
+        {
+          "text": "Matumni",
+          "xmin": 459,
+          "ymin": 2678,
+          "xmax": 541,
+          "ymax": 2706
+        },
+        {
+          "text": "Devi",
+          "xmin": 549,
+          "ymin": 2678,
+          "xmax": 591,
+          "ymax": 2706
+        },
+        {
+          "text": "Maha",
+          "xmin": 601,
+          "ymin": 2686,
+          "xmax": 651,
+          "ymax": 2706
+        },
+        {
+          "text": "Vidvalav",
+          "xmin": 658,
+          "ymin": 2687,
+          "xmax": 741,
+          "ymax": 2706
+        },
+        {
+          "text": "Na",
+          "xmin": 442,
+          "ymin": 2724,
+          "xmax": 495,
+          "ymax": 2738
+        },
+        {
+          "text": "Training",
+          "xmin": 540,
+          "ymin": 2722,
+          "xmax": 633,
+          "ymax": 2750
+        },
+        {
+          "text": "P",
+          "xmin": 493,
+          "ymin": 2762,
+          "xmax": 513,
+          "ymax": 2776
+        },
+        {
+          "text": "Chandad",
+          "xmin": 520,
+          "ymin": 2756,
+          "xmax": 638,
+          "ymax": 2786
+        },
+        {
+          "text": "Phto",
+          "xmin": 601,
+          "ymin": 2746,
+          "xmax": 644,
+          "ymax": 2764
+        },
+        {
+          "text": "Centre",
+          "xmin": 642,
+          "ymin": 2726,
+          "xmax": 715,
+          "ymax": 2747
+        },
+        {
+          "text": "shouldbe",
+          "xmin": 653,
+          "ymin": 2750,
+          "xmax": 729,
+          "ymax": 2766
+        },
+        {
+          "text": "het",
+          "xmin": 638,
+          "ymin": 2770,
+          "xmax": 670,
+          "ymax": 2784
+        },
+        {
+          "text": "al",
+          "xmin": 684,
+          "ymin": 2767,
+          "xmax": 701,
+          "ymax": 2784
+        },
+        {
+          "text": "ia",
+          "xmin": 707,
+          "ymin": 2770,
+          "xmax": 724,
+          "ymax": 2782
+        },
+        {
+          "text": "Principal",
+          "xmin": 621,
+          "ymin": 2796,
+          "xmax": 690,
+          "ymax": 2812
+        },
+        {
+          "text": "of",
+          "xmin": 690,
+          "ymin": 2799,
+          "xmax": 709,
+          "ymax": 2810
+        },
+        {
+          "text": "the",
+          "xmin": 614,
+          "ymin": 2821,
+          "xmax": 637,
+          "ymax": 2833
+        },
+        {
+          "text": "Institution",
+          "xmin": 645,
+          "ymin": 2821,
+          "xmax": 719,
+          "ymax": 2833
+        },
+        {
+          "text": "Candidate",
+          "xmin": 368,
+          "ymin": 2844,
+          "xmax": 448,
+          "ymax": 2856
+        },
+        {
+          "text": "Signature",
+          "xmin": 457,
+          "ymin": 2845,
+          "xmax": 531,
+          "ymax": 2859
+        },
+        {
+          "text": "with",
+          "xmin": 599,
+          "ymin": 2845,
+          "xmax": 629,
+          "ymax": 2856
+        },
+        {
+          "text": "Sea",
+          "xmin": 636,
+          "ymin": 2845,
+          "xmax": 670,
+          "ymax": 2856
+        },
+        {
+          "text": "Sign",
+          "xmin": 697,
+          "ymin": 2845,
+          "xmax": 729,
+          "ymax": 2859
+        },
+        {
+          "text": "Secretary",
+          "xmin": 1897,
+          "ymin": 3022,
+          "xmax": 2050,
+          "ymax": 3053
+        },
+        {
+          "text": "U.P.",
+          "xmin": 1738,
+          "ymin": 3072,
+          "xmax": 1795,
+          "ymax": 3095
+        },
+        {
+          "text": "STATE",
+          "xmin": 1790,
+          "ymin": 3070,
+          "xmax": 1900,
+          "ymax": 3096
+        },
+        {
+          "text": "MEDICAL",
+          "xmin": 1914,
+          "ymin": 3070,
+          "xmax": 2062,
+          "ymax": 3096
+        },
+        {
+          "text": "FACULTY",
+          "xmin": 2074,
+          "ymin": 3070,
+          "xmax": 2209,
+          "ymax": 3096
+        },
+        {
+          "text": "Dated",
+          "xmin": 340,
+          "ymin": 3115,
+          "xmax": 433,
+          "ymax": 3143
+        },
+        {
+          "text": "03",
+          "xmin": 562,
+          "ymin": 3117,
+          "xmax": 598,
+          "ymax": 3143
+        },
+        {
+          "text": "April",
+          "xmin": 612,
+          "ymin": 3115,
+          "xmax": 684,
+          "ymax": 3147
+        },
+        {
+          "text": "2019",
+          "xmin": 697,
+          "ymin": 3117,
+          "xmax": 773,
+          "ymax": 3143
+        },
+        {
+          "text": "LUCKNOW",
+          "xmin": 1890,
+          "ymin": 3118,
+          "xmax": 2055,
+          "ymax": 3145
+        }
+      ],
+      "raw_text": "d a 3 UTTAR PRADESH STATE MEDICAL FACULTY E PITCTH S LUCKNOW CONSOLIDATED MARKSHEET OF AUXILIARY NURSE & MIDWIFE / H.W | (FEMALE I EXAMINATION Roll No. 173123873 Name of Student | SMT. POONAM Mother's Name SMT. RADHIKA Father's Name SRI SHRWAN KUMAR Training Centre MAA MATURANI DEVI MAHAVIDYALAYA NURSING PRASIKSHAN KENDRA | BALLIA [ 1030 1 YEAR OF THE COURSE FIRST YEAR I EXAM MONTH YEAR SEPTEMBER 2017 SUBJECT e MAX. EXT MAX. INT OBT EXT OBT INT TOTAL T COMMUNITY HEALTH NURSING I 75 25 43 19 62 6 a i HEALTH PROMOTION 75 25 T 46 18 64 II PRIMARY HEALTH CARE NURSING 75 25 47 20 67 CHILD HEALTH NURSING IV 75 25 T 39 18 57 COMMUNITY HEALTH NURSING AND HEALTH PROMOTION V (PRACTICAL) 100 100 93 72 165 O CHILD HEALTH NURSING V (P) (PRACTICAL) 100 100 92 80 172 RESULT PASS TOTAL MARKS OBTAINED FIVE HUNDRED EIGHTY SEVEN 587 1 800 YEAR OF THE COURSE FINAL YEAR EXAM MONTH YEAR MARCH 2019 SUBJECT MAX EXT MAX. INT OBT EXT OBT. INT TOTAL MI MIDWIFERY 75 25 49 20 69 T I HEALTH CENTER MANAGEMENT 75 25 42 22 64 MI IDWIFERY II (P) | PRACTICAL) 100 100 91 92 183 PRIMARY HEALTH CARE NURSING AND HEALTH CENTER IV MANAGEMENT (PRACTICAL) 100 100 95 93 188 RESULT PASS Y TOTAL MARKS OBTAINED FIVE HUNDRED FOUR 504 I 1 600 T ATTEMPTIS I FIRST YEAR SEPTEMBER 2017 PASS FINAL YEAR SEPTEMBER 2018 | FAIL ). MARCH 2019 1 PASS I PRINCIPAL E Maa Matumni Devi Maha Vidvalav Na Training P Chandad Phto Centre shouldbe het al ia Principal of the Institution Candidate Signature with Sea Sign Secretary U.P. STATE MEDICAL FACULTY Dated 03 April 2019 LUCKNOW "
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+[{
+    "name":"GURIYA K", 
+    "fatherName":"S M Arya",
+    "motherName":"S M Arya",
+    "grades": "a",
+    "rollNumber": "2224300009",
+    "dob": "1998-09-20",
+    "gender": "F",
+    "mobile": "9087363655",
+    "email": "kumarpawans@gmail.com",
+    "qualification":"DIPLOMA IN GENERAL NURSING and MIDWIFERY",
+    "enrollmentNumber":"2210254300051",
+    "examYear":"2022",
+    "compositeData":"[{\"name\":\"COMMUNITY HEALTH NURSING\",\"max-ext\":\"75\",\"max-int\":\"25\",\"obt-ext\":\"46\",\"obt-int\":\"20\"}]",
+    "yearsOfTheCourse":[{
+        "courseYear":"First Year",
+        "examYear":"2020",
+        "examMonth":"March",
+        "result":"result",
+        "totalMarksObtained":"426",
+        "totalMarksObtainedInWord":"Four hundred and Twenty Six",
+        "maxTotal":"500",
+    "subjects":[{"name":"COMMUNITY HEALTH NURSING","max-ext":"75","max-int":"25","obt-ext":"46","obt-int":"20","total":"66"},
+    {"name":"HEALTH PROMOTION","max-ext":"75","max-int":"25","obt-ext":"40","obt-int":"19","total":"59"}]
+    },
+    {
+        "courseYear":"Second Year",
+        "examYear":"2021",
+        "examMonth":"March",
+        "result":"result",
+        "totalMarksObtained":"426",
+        "totalMarksObtainedInWord":"Four hundred and Twenty Six",
+        "maxTotal":"500",
+    "subjects":[{"name":"COMMUNITY HEALTH NURSING","max-ext":"75","max-int":"25","obt-ext":"46","obt-ext":"20"},
+    {"name":"HEALTH PROMOTION","max-ext":"75","max-int":"25","obt-ext":"40","obt-ext":"19"}]
+    },
+    {
+        "courseYear":"Final Year",
+        "examYear":"2022",
+        "examMonth":"March",
+        "result":"result",
+        "totalMarksObtained":"426",
+        "totalMarksObtainedInWord":"Four hundred and Twenty Six",
+        "maxTotal":"500",
+    "subjects":[{"name":"COMMUNITY HEALTH NURSING","max-ext":"75","max-int":"25","obt-ext":"46","obt-ext":"20"},
+    {"name":"HEALTH PROMOTION","max-ext":"75","max-int":"25","obt-ext":"40","obt-ext":"19"}]
+    }]
+
+}]
