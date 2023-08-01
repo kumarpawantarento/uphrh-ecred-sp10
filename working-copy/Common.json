@@ -92,70 +92,38 @@
         }
       }
     },
-    "AcademicQualification": {
-      "type": "object",
-      "properties": {
-        "instituteOSID": {
-          "$id": "#/properties/instituteOSID",
-          "type": "string",
-          "title": "Institute OSID"
-        },
-        "instituteName": {
-          "$id": "#/properties/instituteName",
-          "type": "string",
-          "title": "Institute Name"
-        },
-        "qualification": {
-          "$id": "#/properties/qualification",
-          "type": "string",
-          "title": "Qualification"
-        },
-        "course": {
-          "$id": "#/properties/course",
-          "type": "string",
-          "title": "course of Study"
-        },
-        "graduationYear": {
-          "$id": "#/properties/graduationYear",
-          "type": "string",
-          "title": "Year of Graduation"
-        },
-        "marks": {
-          "$id": "#/properties/marks",
-          "type": "string",
-          "title": "Marks / Ranking / GPA, etc"
-        }
-      }
-    },
     "EducationType": {
       "type": "object",
       "properties": {
-        "institute": {
-          "$id": "#/properties/institute",
+        "trainningCenter": {
+          "$id": "#/properties/trainningCenter",
           "type": "string",
-          "title": "Institute Name"
+          "title": "trainningCenter Name"
         },
-        "instituteOSID": {
-          "$id": "#/properties/instituteOSID",
+        "trainningStart": {
+          "$id": "#/properties/trainningStart",
           "type": "string",
-          "title": "Institute Osid"
+          "title": "trainningCenter Name"
+        },
+        "trainningEnd": {
+          "$id": "#/properties/trainningStart",
+          "type": "string",
+          "title": "trainningCenter Name"
+        },
+        "coursePart": {
+          "$id": "#/properties/trainningStart",
+          "type": "string",
+          "title": "trainningCenter Name"
         },
         "board": {
           "$id": "#/properties/board",
           "type": "string",
           "title": "Board of Education"
         },
-        "medium": {
-          "$id": "#/properties/medium",
+        "courseDated": {
+          "$id": "#/properties/board",
           "type": "string",
-          "enum": [
-            "English",
-            "Hindi",
-            "Gujarati",
-            "Malayalam",
-            "Tamil"
-          ],
-          "title": "Medium of Education"
+          "title": "Board of Education"
         },
         "course": {
           "$id": "#/properties/course",
@@ -173,34 +141,6 @@
             "DIPLOMA IN PHYSIOTHERAPY",
             "DIPLOMA IN SANITATION(1 YEAR)"],
           "title": "Current Enrollment Class / Std."
-        },
-        "documents": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "fileName": {
-                "type": "string",
-                "format": "file"
-              }
-            }
-          },
-          "title": "Education related documents"
-        }
-      }
-    },
-    "GuardianDetails": {
-      "type": "object",
-      "properties": {
-        "fullName": {
-          "$id": "#/properties/fullName",
-          "type": "string",
-          "title": "Guardian's Full Name"
-        },
-        "relation": {
-          "$id": "#/properties/relation",
-          "type": "string",
-          "title": "Guardian Relation type"
         }
       }
     },

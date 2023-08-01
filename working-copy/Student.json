@@ -26,11 +26,8 @@
 			"$ref": "Common.json/#/definitions/ContactDetails"
 		  },
 		  "education": {
-			"type": "array",
-			"items": {
-			  "$ref": "Common.json/#/definitions/EducationType"
-			},
-			"title": "Professional EducationType"
+			  "$ref": "Common.json/#/definitions/EducationType",
+			  "title": "Education details"
 		  }
 		}
 	  }
