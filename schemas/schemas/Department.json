@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "Department": {
+      "$ref": "#/definitions/Department"
+    }
+  },
+  "required": ["Department"],
+  "title": "Department",
+  "definitions": {
+    "Department": {
+      "$id": "#/properties/Department",
+      "type": "object",
+      "title": "The Department Schema",
+      "required": [],
+      "properties": {
+        "departmentName": {
+          "$id": "#/properties/departmentName",
+          "type": "string",
+          "title": "Department Name",
+          "minLength": 3
+        },
+        "email": {
+          "$id": "#/properties/email",
+          "type": "string",
+          "format": "email",
+          "title": "Email"
+        },
+        "contactNumber": {
+          "$id": "#/properties/contactNumber",
+          "type": "string",
+          "pattern": "^[6-9]\\d{9}$",
+          "title": "Landline / Mobile"
+        },
+        "affiliation": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Affiliation"
+          },
+          "title": "Affiliation"
+        }
+      }
+    },
+    "Affiliation": {
+      "type": "object",
+      "properties": {
+        "departmentHead": {
+          "type": "string",
+          "title": "Department Head"
+        },
+        "departmentId": {
+          "type": "string",
+          "title": "Department ID"
+        }
+      }
+    }
+  },
+  "_osConfig": {
+    "osComment": [
+      "This section contains the specific configuration information",
+      "privateFields: Optional; list of field names to be encrypted and stored in database",
+      "signedFields: Optional; list of field names that must be pre-signed",
+      "indexFields: Optional; list of field names used for creating index. Enclose within braces to indicate it is a composite index. In this definition, (serialNum, schoolCode) is a composite index and schoolName is a single column index.",
+      "uniqueIndexFields: Optional; list of field names used for creating unique index. Field names must be different from index field name",
+      "systemFields: Optional; list of fields names used for system standard information like created, updated timestamps and userid"
+    ],
+    "privateFields": ["$.email", "$.contactNumber"],
+    "indexFields": [],
+    "uniqueIndexFields": ["departmentName"],
+    "systemFields": [
+      "osCreatedAt",
+      "osUpdatedAt",
+      "osCreatedBy",
+      "osUpdatedBy"
+    ],
+    "attestationPolicies": [
+      {
+        "name": "departmentAffiliation",
+        "conditions": "(ATTESTOR#$.[*]#.contains('org-tarento'))",
+        "type": "MANUAL",
+        "attestorPlugin": "did:internal:ClaimPluginActor?entity=org-tarento",
+        "attestationProperties": {
+          "affiliation": "$.affiliation",
+          "departmentName": "$.departmentName"
+        }
+      }
+    ],
+    "inviteRoles": ["anonymous"],
+    "roles": ["org-tarento"],
+    "ownershipAttributes": [
+      {
+        "email": "/email",
+        "mobile": "/contactNumber",
+        "userId": "/email"
+      }
+    ]
+  }
+}

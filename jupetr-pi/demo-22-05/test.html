@@ -15,23 +15,9 @@
         <tbody id="dataRows"></tbody>
     </table>
 
-    <table id="t1">
-        <thead>
-            <tr id="headerRow"></tr>
-        </thead>
-    </table>
-
-
     <script>
         // JSON data
-    var jsonData = [{"subject":"COMMUNITY HEALTH NURSING","max-ext":"75","max-int":"25","obt-ext":"46","obt-int":"20"},
-    {"subject":"HEALTH PROMOTION","max-ext":"75","max-int":"25","obt-ext":"40","obt-int":"19"}];
-
-    var jsonData1 = [{"subject":"COMMUNITY HEALTH NURSING","max-ext":"75","max-int":"25","obt-ext":"46","obt-int":"20"},
-    {"subject":"HEALTH PROMOTION","max-ext":"75","max-int":"25","obt-ext":"40","obt-int":"19"}];
-
-    var jsonData2 = [{"subject":"COMMUNITY HEALTH NURSING","max-ext":"75","max-int":"25","obt-ext":"46","obt-int":"20"},
-    {"subject":"HEALTH PROMOTION","max-ext":"75","max-int":"25","obt-ext":"40","obt-int":"19"}];
+    var jsonData2 ={{credentialSubject.compositeData}};
 
         // Get the table header row
         var headerRow = document.getElementById("headerRow");
@@ -39,9 +25,9 @@
         // Get the data rows container
         var dataRows = document.getElementById("dataRows");
 
-        function renderTable() {
+        function renderTable2() {
             // Create table header from JSON keys
-            var keys = Object.keys(jsonData[0]);
+            var keys = Object.keys(jsonData2[0]);
             keys.forEach(function(key) {
                 var th = document.createElement("th");
                 th.textContent = key;
@@ -49,7 +35,7 @@
             });
 
             // Create table rows from JSON data
-            jsonData.forEach(function(rowData) {
+            jsonData2.forEach(function(rowData) {
                 var row = document.createElement("tr");
                 keys.forEach(function(key) {
                     var td = document.createElement("td");
@@ -60,16 +46,9 @@
             });
         }
 
-
-
-
-
         // Call the renderTable function to render the table        
         
     </script>
-<div>
-<script>renderTable();</script>
-</div>
 
-
-
+<script>renderTable2();</script>
+</html>

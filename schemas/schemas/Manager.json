@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "Manager": {
+      "$ref": "#/definitions/Manager"
+    }
+  },
+  "required": ["Manager"],
+  "title": "Manager",
+  "definitions": {
+    "Manager": {
+      "$id": "#/properties/Manager",
+      "type": "object",
+      "title": "The Manager Schema",
+      "required": [],
+      "properties": {
+        "identityDetails": {
+          "$ref": "Common.json/#/definitions/IdentityDetails"
+        },
+        "contactDetails": {
+          "$ref": "Common.json/#/definitions/ContactDetails"
+        },
+        "department": {
+          "type": "array",
+          "items": {
+            "$ref": "Common.json/#/definitions/departmentDetails"
+          },
+          "title": "Department Details"
+        }
+      }
+    }
+  },
+  "_osConfig": {
+    "osComment": [
+      "This section contains the OpenSABER specific configuration information",
+      "privateFields: Optional; list of field names to be encrypted and stored in database",
+      "signedFields: Optional; list of field names that must be pre-signed",
+      "indexFields: Optional; list of field names used for creating index. Enclose within braces to indicate it is a composite index. In this definition, (serialNum, teacherCode) is a composite index and teacherName is a single column index.",
+      "uniqueIndexFields: Optional; list of field names used for creating unique index. Field names must be different from index field name",
+      "systemFields: Optional; list of fields names used for system standard information like created, updated timestamps and userid"
+    ],
+    "privateFields": ["$.contactDetails.email", "$.contactDetails.mobile"],
+    "internalFields": [],
+    "indexFields": [],
+    "uniqueIndexFields": [],
+    "systemFields": [
+      "osCreatedAt",
+      "osUpdatedAt",
+      "osCreatedBy",
+      "osUpdatedBy"
+    ],
+    "attestationPolicies": [
+      {
+        "name": "managerDepartment",
+        "conditions": "(ATTESTOR#$.osid#.contains(REQUESTER#$.department.*.departmentOSID#))",
+        "type": "MANUAL",
+        "attestorPlugin": "did:internal:ClaimPluginActor?entity=Department",
+        "attestationProperties": {
+          "department": "$.department"
+        }
+      }
+    ],
+    "inviteRoles":["anonymous"],
+    "roles": ["Department"],
+    "ownershipAttributes": [
+      {
+        "email": "/contactDetails/email",
+        "mobile": "/contactDetails/mobile",
+        "userId": "/contactDetails/email"
+      }
+    ]
+  }
+}

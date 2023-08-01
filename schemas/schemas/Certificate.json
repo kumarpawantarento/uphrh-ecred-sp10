@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "Certificate": {
+      "$ref": "#/definitions/Certificate"
+    }
+  },
+  "required": ["Certificate"],
+  "title": "Certificate",
+  "definitions": {
+    "Certificate": {
+      "$id": "#/properties/Certificate",
+      "type": "object",
+      "title": "Certificate Schema",
+      "required": ["name", "empId", "category"],
+      "uniqueIndexFields": ["email"],
+      "additionalProperties": true,
+      "properties": {
+        "name": { "type": "string", "title": "Name" },
+        "empId": { "type": "string", "title": "Employee ID" },
+        "category": {
+          "$id": "#/properties/category",
+          "type": "string",
+          "title": "Certificate Category",
+          "enum": [
+            "Rising Star Award",
+            "Extra Mile Award",
+            "Innovation Award",
+            "Spotlight Award"
+          ]
+        }
+      }
+    }
+  },
+  "_osConfig": {
+    "uniqueIndexFields": ["empId"],
+    "ownershipAttributes": [],
+    "systemFields": [
+      "osCreatedAt",
+      "osUpdatedAt",
+      "osCreatedBy",
+      "osUpdatedBy"
+    ],
+    "roles": ["Manager"],
+    "enableLogin": false,
+    "credentialTemplate": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        {
+          "@version": 1.1,
+          "@protected": true,
+          "SkillCertificate": {
+            "@id": "https://github.com/sunbird-specs/vc-specs#SkillCertificate",
+            "@context": {
+              "id": "@id",
+              "@version": 1.1,
+              "@protected": true,
+              "skills": "schema:Text"
+            }
+          },
+          "Person": {
+            "@id": "https://github.com/sunbird-specs/vc-specs#Person",
+            "@context": {
+              "name": "schema:Text"
+            }
+          },
+          "trainedOn": {
+            "@id": "https://github.com/sunbird-specs/vc-specs#trainedOn",
+            "@context": {
+              "name": "schema:Text"
+            }
+          }
+        }
+      ],
+      "type": ["VerifiableCredential"],
+      "issuanceDate": "2021-08-27T10:57:57.237Z",
+      "credentialSubject": {
+        "type": "Person",
+        "name": "{{name}}",
+        "trainedOn": "{{category}}"
+      },
+      "issuer": "did:web:sunbirdrc.dev/vc/skill"
+    },
+    "certificateTemplates": {
+        "svg": "https://raw.githubusercontent.com/aniket-aditya/sunbird-rc/main/Certificate-Award.svg"
+    }
+  }
+}
